@@ -8,7 +8,7 @@ const fetchQuotes = async () => {
     text: body[0].quote,
     image: body[0].image,
   };
-  console.log(quote);
+  return quote;
 };
 
 export default fetchQuotes;
