@@ -1,6 +1,5 @@
 const copyAndPush = (arr, item) => {
-  arr.push(item);
-  return arr;
+  return [...arr, item];
 };
 
 export default copyAndPush;
