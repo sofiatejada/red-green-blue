@@ -8,9 +8,8 @@ const capitalizeAndFilter = (arr) => {
 //     }
 //   }
 //   return accum;
-// const accum = [];
 
-  const filteredArr = arr.filter(item => (item[0] === 'f'));
+  const filteredArr = arr.filter(item => (item[0] !== 'f'));
   const capitalizedFilteredArr = filteredArr.map(item => item.toUpperCase());
   return capitalizedFilteredArr;
 };
